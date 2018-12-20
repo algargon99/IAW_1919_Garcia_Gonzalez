@@ -1,9 +1,15 @@
-.cero{
+.cero {
     background-color: red;
     color: white;
    
 }
-table{
+table {
     border-collapse: collapse;
+}
+
+td {
+    width: 150px;
+    height: 30px;
     border: 1px solid black;
+
 }

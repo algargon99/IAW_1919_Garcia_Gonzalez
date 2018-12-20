@@ -18,8 +18,8 @@ foreach ($v1 as $key => $value) {
 echo "<input type='submit' value='$v2'>";
 
     }
-    $vector=["nombre"=>"text","fecha_de_nacimiento"=>"date","edad"=>"number"];
-    $boton="Enviar";
+    $vector=["nombre"=>"password","fecha_de_nacimiento"=>"number","edad"=>"date"];
+    $boton="ESTO ES UN DIEZ";
     echo crear_formulario($vector,$boton);
     ?>
 </body>
